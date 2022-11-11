@@ -1,0 +1,15 @@
+[submodule "src/hikrobot_camera"]
+	path = src/hikrobot_camera
+	url = https://github.com/smart-sensor-systems-thuas/hikrobot_camera
+[submodule "src/ros_numpy"]
+	path = src/ros_numpy
+	url = https://github.com/eric-wieser/ros_numpy
+[submodule "src/velo2cam_calibration"]
+	path = src/velo2cam_calibration
+	url = https://github.com/smart-sensor-systems-thuas/velo2cam_calibration
+[submodule "src/velodyne"]
+	path = src/velodyne
+	url = https://github.com/ros-drivers/velodyne
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/smart-sensor-systems-thuas/yolov5

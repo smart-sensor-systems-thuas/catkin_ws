@@ -1,0 +1,2 @@
+hikrobot_camera:image_pipeline/camera_calibration:image_pipeline/depth_image_proc:image_pipeline/image_pipeline:image_pipeline/image_proc:image_pipeline/image_publisher:image_pipeline/image_rotate:image_pipeline/image_view:image_pipeline/stereo_image_proc:ros_numpy:velo2cam_calibration:velodyne/velodyne:velodyne/velodyne_driver:velodyne/velodyne_laserscan:velodyne/velodyne_msgs:velodyne/velodyne_pcl:velodyne/velodyne_pointcloud
+-DCATKIN_DEVEL_PREFIX=/home/user/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/catkin_ws/install -G Unix Makefiles

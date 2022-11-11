@@ -1,0 +1,8 @@
+digraph G {
+"rotated_hikrobot_camera" -> "hikrobot_camera"[label="Broadcaster: /sensor2_rot_tf\nAverage rate: 99.224 Hz\nMost recent transform: 1666009317.928 ( -0.001 sec old)\nBuffer length: 4.979 sec\n"];
+"rotated_hikrobot_camera" -> "velodyne"[label="Broadcaster: /velo2cam_tf\nAverage rate: 10.195 Hz\nMost recent transform: 1666009317.957 ( -0.030 sec old)\nBuffer length: 4.904 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1666009317.927"[ shape=plaintext ] ;
+ }->"rotated_hikrobot_camera";
+}

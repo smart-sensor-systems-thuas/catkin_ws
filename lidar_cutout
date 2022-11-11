@@ -1,0 +1,29 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  fixed_frame: ''
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      fixed_frame: ''
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      max_range: 130.0
+      min_range: 0.4
+      name: Default
+      organize_cloud: false
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      target_frame: ''
+      type: ''
+      view_direction: 0.035
+      view_width: 0.8796459430051421
+    state: []
+  max_range: 130.0
+  min_range: 0.4
+  organize_cloud: false
+  target_frame: ''
+  view_direction: 0.035
+  view_width: 0.8796459430051421
+state: []

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ./devel/setup.bash 
+gnome-terminal --wait --window-with-profile=noclose \
+--tab "roslaunch velo2cam_calibration mono_pattern.launch camera_name:=/hikrobot_camera image_topic:=rgb frame_name:=hikrobot_camera" \
+--tab "roslaunch velo2cam_calibration lidar_pattern.launch cloud_topic:=/velodyne_points" \
+--tab "roslaunch velo2cam_calibration registration.launch sensor1_type:=mono sensor2_type:=lid"
+gnome-terminal --wait --tab-with-profile=noclose -- roslaunch velo2cam_calibration lidar_pattern.launch cloud_topic:=/velodyne_points
+gnome-terminal --wait --tab-with-profile=noclose -- roslaunch velo2cam_calibration registration.launch sensor1_type:=mono sensor2_type:=lidar
